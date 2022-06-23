@@ -25,3 +25,38 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-------------------------------------------------------------------------------------------------------------------------------------
+
+npx -p @angular/cli@11.1.2 ng new Angular11App
+npm install @angular/material @angular/cdk @angular/animations
+npm install boostrap --save
+npm i @popperjs/core 
+ng add @angular/material
+npm i ngx-bootstrap
+npm i autoprefixer
+
+        "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "./node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
+
+            ng g m ComponentInteraction --routing
+            ng g s Compinteraction
+
+
+
+
+
+
+
+
+
+
+
+
